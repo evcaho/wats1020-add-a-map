@@ -6,9 +6,15 @@
    HTML structures and invoke the proper JS code accordingly. Be sure
    to reference the Bootstrap documentation.)
 */
-
+	//this is my on ready handler
+$(document).ready (function(){
+	//this invokes the Leaflet.js library to draw a map in my map-container divs
+	var map = L.map('map-container').setView([51.505, -0.09], 13);
+	
+	
+});
 // TODO: Inside of your on ready handler, invoke the Leaflet.js library
-// to draw a map in your `#map-container` div.
+// to draw a map in your `#map-container` div.- DONE
 
 // TODO: Add 2 layers to your map you have visuals. Use the Open Street Maps
 // tiles served through the MapQuest CDN. Consult this example to set up
