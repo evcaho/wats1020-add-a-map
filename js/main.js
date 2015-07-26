@@ -9,8 +9,9 @@
 	//this is my on ready handler
 $(document).ready (function(){
 	//this invokes the Leaflet.js library to draw a map in my map-container divs
-	var map = L.map('map-container').setView([46.852, -121.760], 13);
-var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+	
+var map = L.map('map-container').setView([46.852, -121.760], 13);
+	var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 18, attribution: osmAttrib});
 
@@ -30,7 +31,12 @@ var mapLayers = {
     "Open Street Maps": osm
 };
 
-	
+
+L.control.layers(mapLayers).addTo(map);
+satLayer.addTo(map);
+
+var marker = L.marker([46.852, -121.760]).addTo(map);
+marker.bindPopup("<b>Welcome to Mt. Rainier!</b><br>This peak is 4,392 feet high.");
 });
 // TODO: Inside of your on ready handler, invoke the Leaflet.js library
 // to draw a map in your `#map-container` div.- DONE

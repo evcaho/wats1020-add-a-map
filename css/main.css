@@ -3,11 +3,14 @@
    ========================================================================== */
 #map-container { height: 180px; }
 .carousel img {
-  min-width: 100%;
-  height: 400px;
-  max-width: none;
+  margin:0 auto; 
+  height: 300px;
+  max-width: 80%;
 }
+.slider-size {
+height: 300px; /* This is your slider height */
 
+}
 
 
 
