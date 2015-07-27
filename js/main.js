@@ -1,6 +1,5 @@
 /* Begin by adding your on ready handler here, and then create the
    rest of your functions inside the on ready handler.
-
    (Note that you do not need to manually call Bootstrap functions in
    your Javascript because Bootstrap will automatically recognize your
    HTML structures and invoke the proper JS code accordingly. Be sure
@@ -53,17 +52,8 @@ marker5.bindPopup("<b>Arena Coliseo</b> is Guadalajara's arena for Lucha Libre w
 	var marker6 = L.marker([20.672189, -103.36262799999997]).addTo(map);
 marker6.bindPopup("<b>La Cafeteria</b> is the most perfect cafe in the world. The weather in Guadalajara is nearly always perfect, so enjoy your chilaquiles, waffles, or breakfast enchiladas in their outside garden patio.");
 
-		var marker7 = L.marker([20.670711, -103.348472).addTo(map);
-marker7.bindPopup("<b>Birrieria las 9 Esquinas</b> serves birria, a Jaliscan specialty goat stew.");
-
-//I'm testing out a photo markere here
-var photo_marker = new L.PhotoMarker([20.6707112, -103.34847179999997], {
-src: 'http://i1280.photobucket.com/albums/a492/snhorne/Mobile%20Uploads/2014-06/81F205F7-E6A2-43DA-A44F-569EAF9D0522_zpsvccjyvyz.jpg',
-size: [ 100, 67 ]
-}).addTo(map);
-
 	// This is a circle I created for the Centro Historico of Guadalajara
-	var circle = L.circle([20.6771152, -103.34696109999999], 1000, {
+	var circle = L.circle([20.6771152, -103.34696109999999], 500, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
