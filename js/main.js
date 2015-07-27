@@ -54,7 +54,7 @@ marker5.bindPopup("<b>Arena Coliseo</b> is Guadalajara's arena for Lucha Libre w
 marker6.bindPopup("<b>La Cafeteria</b> is the most perfect cafe in the world. The weather in Guadalajara is nearly always perfect, so enjoy your chilaquiles, waffles, or breakfast enchiladas in their outside garden patio.");
 
 	// This is a circle I created for the Centro Historico of Guadalajara
-	var circle = L.circle([20.6771152, -103.34696109999999], 500, {
+	var circle = L.circle([20.6771152, -103.34696109999999], 1000, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
