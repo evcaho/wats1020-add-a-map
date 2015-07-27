@@ -37,3 +37,10 @@ satLayer.addTo(map);
 
 var marker = L.marker([46.852, -121.760]).addTo(map);
 marker.bindPopup("<b>Welcome to Mt. Rainier!</b><br>This peak is 4,392 feet high.");
+
+var circle = L.circle([46.852, -121.760], 500, {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5
+}).addTo(map);
+circle.bindPopup("Centro Histórico");

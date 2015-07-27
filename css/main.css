@@ -1,16 +1,19 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#map-container { height: 180px; }
+#map-container { height: 280px; }
 .carousel img {
   margin:0 auto; 
-  height: 300px;
-  max-width: 80%;
-}
-.slider-size {
-height: 300px; /* This is your slider height */
+	max-height: 400px;
+max-width: 800px;
 
 }
+.slider-size {
+height: 400px; /* This is your slider height */
+
+}
+
+
 
 
 
