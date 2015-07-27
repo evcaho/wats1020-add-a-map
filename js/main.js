@@ -53,7 +53,7 @@ marker5.bindPopup("<b>Arena Coliseo</b> is Guadalajara's arena for Lucha Libre w
 	var marker6 = L.marker([20.672189, -103.36262799999997]).addTo(map);
 marker6.bindPopup("<b>La Cafeteria</b> is the most perfect cafe in the world. The weather in Guadalajara is nearly always perfect, so enjoy your chilaquiles, waffles, or breakfast enchiladas in their outside garden patio.");
 
-		var marker7 = L.marker([20.6707112, -103.36262799999997]).addTo(map);
+		var marker7 = L.marker([20.670711, -103.348472).addTo(map);
 marker6.bindPopup("<b>Birrieria las 9 Esquinas</b> serves birria, a Jaliscan specialty goat stew.");
 
 //I'm testing out a photo markere here
