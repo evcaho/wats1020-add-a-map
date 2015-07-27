@@ -56,6 +56,12 @@ marker6.bindPopup("<b>La Cafeteria</b> is the most perfect cafe in the world. Th
 		var marker7 = L.marker([20.670711, -103.348472).addTo(map);
 marker7.bindPopup("<b>Birrieria las 9 Esquinas</b> serves birria, a Jaliscan specialty goat stew.");
 
+//I'm testing out a photo markere here
+var photo_marker = new L.PhotoMarker([20.6707112, -103.34847179999997], {
+src: 'http://i1280.photobucket.com/albums/a492/snhorne/Mobile%20Uploads/2014-06/81F205F7-E6A2-43DA-A44F-569EAF9D0522_zpsvccjyvyz.jpg',
+size: [ 100, 67 ]
+}).addTo(map);
+
 	// This is a circle I created for the Centro Historico of Guadalajara
 	var circle = L.circle([20.6771152, -103.34696109999999], 1000, {
     color: 'red',
